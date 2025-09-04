@@ -51,3 +51,8 @@ updates:
       - dependency-name: "bufbuild/buf-breaking-action"
       - dependency-name: "trufflesecurity/trufflehog"
       - dependency-name: "sonatype-nexus-community/nancy-github-action"
+
+  - package-ecosystem: gomod
+    directory: /net/http/sample-openapi
+    schedule:
+      interval: daily
