@@ -2,6 +2,9 @@ name: "maintenance"
 on:
   schedule:
     - cron: "0 0 * * *" # daily at midnight
+permissions:
+  contents: read
+
 jobs:
   stale:
     name: "close stale issues and pull requests"
