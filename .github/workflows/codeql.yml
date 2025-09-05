@@ -9,6 +9,9 @@ on:
     branches:
       - main
   workflow_dispatch: {}
+permissions:
+  contents: read
+
 jobs:
   # Semantic code analysis to discover vulnerabilities in the codebase
   # using GitHub's CodeQL.
